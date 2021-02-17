@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* MENU */
+
+.menu {
+    background: #4f4f4f;
+    padding: 10px 0px;
+}
+
+.container-menu {
+    max-width: 1000px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100px;
+}
+
+.nav-menu {
+    margin: auto 0px;
+}
+
+.nav-menu li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0px 5px;
+}
+
+.nav-menu a {
+    padding: 0px 15px;
+    text-decoration: none;
+    color: #F6C8E9;
+    font-size: 1.25em;
+    font-family: serif;
+}
